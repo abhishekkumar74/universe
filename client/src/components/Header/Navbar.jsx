@@ -1,16 +1,17 @@
-import { Link } from "react-router-dom";
+import React from "react";
+import "./Navbar.css"; // Import the CSS file
 
 const Navbar = () => {
   return (
-    <nav className="bg-blue-600 text-white p-4">
-      <div className="container mx-auto flex justify-between items-center">
-        <Link to="/" className="text-xl font-bold">StudentHub</Link>
-        <div className="space-x-4">
-          <Link to="/" className="hover:text-gray-200">Home</Link>
-          <Link to="/projects" className="hover:text-gray-200">Projects</Link>
-          <Link to="/community" className="hover:text-gray-200">Community</Link>
-        </div>
-      </div>
+    <nav className="navbar">
+      <div className="logo">MyBrand</div>
+      <ul className="nav-links">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Services</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+      <button className="menu-btn">☰</button>
     </nav>
   );
 };

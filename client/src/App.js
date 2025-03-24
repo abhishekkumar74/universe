@@ -1,11 +1,10 @@
-// import { BrowserRouter as Router } from "react-router-dom";
-import Navbar from "./components/Header";
+import Navbar from "./components/Header/Navbar";
 
 function App() {
   return (
-    <> 
+    <>
     <Navbar/>
-        <h1>Hey</h1>
+      <h1>Hello Users!</h1>
     </>
   );
 }
