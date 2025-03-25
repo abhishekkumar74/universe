@@ -1,6 +1,7 @@
 /* Navbar Container */
 .navbar {
     display: flex;
+    font-family:Arial, Helvetica, sans-serif;
     justify-content: space-between;
     align-items: center;
     background-color: #38388b;
