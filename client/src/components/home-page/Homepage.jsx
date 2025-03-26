@@ -5,7 +5,7 @@ const Homepage = () => {
   return (
     <div className="homepage">
       <header className="hero">
-        <h2>Welcome to MyBrand</h2>
+        <h2>Welcome to Unniverse</h2>
         <p>Building the future with modern solutions.</p>
         <button className="cta-button">Get Started</button>
       </header>
