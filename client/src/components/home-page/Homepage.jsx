@@ -10,6 +10,15 @@ const Homepage = () => {
         <button className="cta-button">Get Started</button>
       </header>
 
+      <section className="about">
+        <h2>About Us</h2>
+        <p>
+          Unniverse is a student community platform that connects college students
+          across different tiers, helping them share knowledge, find mentors,
+          exchange notes, and prepare for a bright future.
+        </p>
+      </section>
+
       <section className="features">
         <div className="feature-card">
           <h3>Fast & Optimized</h3>
@@ -25,8 +34,24 @@ const Homepage = () => {
         </div>
       </section>
 
+      <section className="contact">
+        <h2>Contact Us</h2>
+        <form className="contact-form">
+          <label>Name:</label>
+          <input type="text" placeholder="Your Name" required />
+
+          <label>Email:</label>
+          <input type="email" placeholder="Your Email" required />
+
+          <label>Message:</label>
+          <textarea placeholder="Your Message" required></textarea>
+
+          <button type="submit">Send Message</button>
+        </form>
+      </section>
+
       <footer className="footer">
-        <p>&copy; 2025 MyBrand. All rights reserved.</p>
+        <p>&copy; 2025 Unniverse. All rights reserved.</p>
       </footer>
     </div>
   );

@@ -156,7 +156,7 @@
       });
     }
   }
-})({"ihYAY":[function(require,module,exports,__globalThis) {
+})({"cSThZ":[function(require,module,exports,__globalThis) {
 var global = arguments[3];
 var HMR_HOST = null;
 var HMR_PORT = null;
@@ -689,11 +689,11 @@ root.render(/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _appDefault.default), {
   globalThis.$RefreshReg$ = prevRefreshReg;
   globalThis.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"dVPUn","react":"jMk1U","react-dom/client":"hrvwu","./App":"hh6uc","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"7h6Pi"}],"dVPUn":[function(require,module,exports,__globalThis) {
+},{"react/jsx-dev-runtime":"kw0qP","react":"dZcfS","react-dom/client":"6NrRG","./App":"hh6uc","@parcel/transformer-js/src/esmodule-helpers.js":"6Rhgs","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"h8se8"}],"kw0qP":[function(require,module,exports,__globalThis) {
 'use strict';
-module.exports = require("ee51401569654d91");
+module.exports = require("9da6be6a74e87da7");
 
-},{"ee51401569654d91":"gnlQf"}],"gnlQf":[function(require,module,exports,__globalThis) {
+},{"9da6be6a74e87da7":"ctFMa"}],"ctFMa":[function(require,module,exports,__globalThis) {
 /**
  * @license React
  * react-jsx-dev-runtime.development.js
@@ -1078,7 +1078,7 @@ module.exports = require("ee51401569654d91");
         info || (parentType = getComponentNameFromType(parentType)) && (info = "\n\nCheck the top-level render call using <" + parentType + ">.");
         return info;
     }
-    var React = require("58362d9d82be395f"), REACT_ELEMENT_TYPE = Symbol.for("react.transitional.element"), REACT_PORTAL_TYPE = Symbol.for("react.portal"), REACT_FRAGMENT_TYPE = Symbol.for("react.fragment"), REACT_STRICT_MODE_TYPE = Symbol.for("react.strict_mode"), REACT_PROFILER_TYPE = Symbol.for("react.profiler");
+    var React = require("745f4ed3c94855fe"), REACT_ELEMENT_TYPE = Symbol.for("react.transitional.element"), REACT_PORTAL_TYPE = Symbol.for("react.portal"), REACT_FRAGMENT_TYPE = Symbol.for("react.fragment"), REACT_STRICT_MODE_TYPE = Symbol.for("react.strict_mode"), REACT_PROFILER_TYPE = Symbol.for("react.profiler");
     Symbol.for("react.provider");
     var REACT_CONSUMER_TYPE = Symbol.for("react.consumer"), REACT_CONTEXT_TYPE = Symbol.for("react.context"), REACT_FORWARD_REF_TYPE = Symbol.for("react.forward_ref"), REACT_SUSPENSE_TYPE = Symbol.for("react.suspense"), REACT_SUSPENSE_LIST_TYPE = Symbol.for("react.suspense_list"), REACT_MEMO_TYPE = Symbol.for("react.memo"), REACT_LAZY_TYPE = Symbol.for("react.lazy"), REACT_OFFSCREEN_TYPE = Symbol.for("react.offscreen"), MAYBE_ITERATOR_SYMBOL = Symbol.iterator, REACT_CLIENT_REFERENCE$2 = Symbol.for("react.client.reference"), ReactSharedInternals = React.__CLIENT_INTERNALS_DO_NOT_USE_OR_WARN_USERS_THEY_CANNOT_UPGRADE, hasOwnProperty = Object.prototype.hasOwnProperty, assign = Object.assign, REACT_CLIENT_REFERENCE$1 = Symbol.for("react.client.reference"), isArrayImpl = Array.isArray, disabledDepth = 0, prevLog, prevInfo, prevWarn, prevError, prevGroup, prevGroupCollapsed, prevGroupEnd;
     disabledLog.__reactDisabledLog = !0;
@@ -1093,11 +1093,11 @@ module.exports = require("ee51401569654d91");
     };
 })();
 
-},{"58362d9d82be395f":"jMk1U"}],"jMk1U":[function(require,module,exports,__globalThis) {
+},{"745f4ed3c94855fe":"dZcfS"}],"dZcfS":[function(require,module,exports,__globalThis) {
 'use strict';
-module.exports = require("a569817e6ea559f6");
+module.exports = require("ce35643e41d44ba3");
 
-},{"a569817e6ea559f6":"ghslp"}],"ghslp":[function(require,module,exports,__globalThis) {
+},{"ce35643e41d44ba3":"iGAJB"}],"iGAJB":[function(require,module,exports,__globalThis) {
 /**
  * @license React
  * react.development.js
@@ -2028,7 +2028,7 @@ module.exports = require("a569817e6ea559f6");
     "undefined" !== typeof __REACT_DEVTOOLS_GLOBAL_HOOK__ && "function" === typeof __REACT_DEVTOOLS_GLOBAL_HOOK__.registerInternalModuleStop && __REACT_DEVTOOLS_GLOBAL_HOOK__.registerInternalModuleStop(Error());
 })();
 
-},{}],"hrvwu":[function(require,module,exports,__globalThis) {
+},{}],"6NrRG":[function(require,module,exports,__globalThis) {
 'use strict';
 function checkDCE() {
     /* global __REACT_DEVTOOLS_GLOBAL_HOOK__ */ if (typeof __REACT_DEVTOOLS_GLOBAL_HOOK__ === 'undefined' || typeof __REACT_DEVTOOLS_GLOBAL_HOOK__.checkDCE !== 'function') return;
@@ -2042,9 +2042,9 @@ function checkDCE() {
     // a false positive.
     throw new Error('^_^');
 }
-module.exports = require("2b53550ce04dc092");
+module.exports = require("f6359b08d4616abe");
 
-},{"2b53550ce04dc092":"lu7uO"}],"lu7uO":[function(require,module,exports,__globalThis) {
+},{"f6359b08d4616abe":"finju"}],"finju":[function(require,module,exports,__globalThis) {
 /**
  * @license React
  * react-dom-client.development.js
@@ -12850,7 +12850,7 @@ module.exports = require("2b53550ce04dc092");
         container[internalContainerInstanceKey] && (container._reactRootContainer ? console.error("You are calling ReactDOMClient.createRoot() on a container that was previously passed to ReactDOM.render(). This is not supported.") : console.error("You are calling ReactDOMClient.createRoot() on a container that has already been passed to createRoot() before. Instead, call root.render() on the existing root instead if you want to update it."));
     }
     "undefined" !== typeof __REACT_DEVTOOLS_GLOBAL_HOOK__ && "function" === typeof __REACT_DEVTOOLS_GLOBAL_HOOK__.registerInternalModuleStart && __REACT_DEVTOOLS_GLOBAL_HOOK__.registerInternalModuleStart(Error());
-    var Scheduler = require("c31f9b99c1e288cf"), React = require("c4c4bc2113e5c77f"), ReactDOM = require("772d609564cfd8f6"), REACT_LEGACY_ELEMENT_TYPE = Symbol.for("react.element"), REACT_ELEMENT_TYPE = Symbol.for("react.transitional.element"), REACT_PORTAL_TYPE = Symbol.for("react.portal"), REACT_FRAGMENT_TYPE = Symbol.for("react.fragment"), REACT_STRICT_MODE_TYPE = Symbol.for("react.strict_mode"), REACT_PROFILER_TYPE = Symbol.for("react.profiler"), REACT_PROVIDER_TYPE = Symbol.for("react.provider"), REACT_CONSUMER_TYPE = Symbol.for("react.consumer"), REACT_CONTEXT_TYPE = Symbol.for("react.context"), REACT_FORWARD_REF_TYPE = Symbol.for("react.forward_ref"), REACT_SUSPENSE_TYPE = Symbol.for("react.suspense"), REACT_SUSPENSE_LIST_TYPE = Symbol.for("react.suspense_list"), REACT_MEMO_TYPE = Symbol.for("react.memo"), REACT_LAZY_TYPE = Symbol.for("react.lazy");
+    var Scheduler = require("c54b0c20efc8c96d"), React = require("d1365800b96fba78"), ReactDOM = require("8baa3793eae56e83"), REACT_LEGACY_ELEMENT_TYPE = Symbol.for("react.element"), REACT_ELEMENT_TYPE = Symbol.for("react.transitional.element"), REACT_PORTAL_TYPE = Symbol.for("react.portal"), REACT_FRAGMENT_TYPE = Symbol.for("react.fragment"), REACT_STRICT_MODE_TYPE = Symbol.for("react.strict_mode"), REACT_PROFILER_TYPE = Symbol.for("react.profiler"), REACT_PROVIDER_TYPE = Symbol.for("react.provider"), REACT_CONSUMER_TYPE = Symbol.for("react.consumer"), REACT_CONTEXT_TYPE = Symbol.for("react.context"), REACT_FORWARD_REF_TYPE = Symbol.for("react.forward_ref"), REACT_SUSPENSE_TYPE = Symbol.for("react.suspense"), REACT_SUSPENSE_LIST_TYPE = Symbol.for("react.suspense_list"), REACT_MEMO_TYPE = Symbol.for("react.memo"), REACT_LAZY_TYPE = Symbol.for("react.lazy");
     Symbol.for("react.scope");
     Symbol.for("react.debug_trace_mode");
     var REACT_OFFSCREEN_TYPE = Symbol.for("react.offscreen");
@@ -15825,11 +15825,11 @@ module.exports = require("2b53550ce04dc092");
     "undefined" !== typeof __REACT_DEVTOOLS_GLOBAL_HOOK__ && "function" === typeof __REACT_DEVTOOLS_GLOBAL_HOOK__.registerInternalModuleStop && __REACT_DEVTOOLS_GLOBAL_HOOK__.registerInternalModuleStop(Error());
 })();
 
-},{"c31f9b99c1e288cf":"4OQ2m","c4c4bc2113e5c77f":"jMk1U","772d609564cfd8f6":"i4X7T"}],"4OQ2m":[function(require,module,exports,__globalThis) {
+},{"c54b0c20efc8c96d":"kMlED","d1365800b96fba78":"dZcfS","8baa3793eae56e83":"50Rvl"}],"kMlED":[function(require,module,exports,__globalThis) {
 'use strict';
-module.exports = require("ef03b89c8fe2794e");
+module.exports = require("9d5efe13d0d758b0");
 
-},{"ef03b89c8fe2794e":"j5hep"}],"j5hep":[function(require,module,exports,__globalThis) {
+},{"9d5efe13d0d758b0":"jnEcq"}],"jnEcq":[function(require,module,exports,__globalThis) {
 /**
  * @license React
  * scheduler.development.js
@@ -16083,7 +16083,7 @@ module.exports = require("ef03b89c8fe2794e");
     "undefined" !== typeof __REACT_DEVTOOLS_GLOBAL_HOOK__ && "function" === typeof __REACT_DEVTOOLS_GLOBAL_HOOK__.registerInternalModuleStop && __REACT_DEVTOOLS_GLOBAL_HOOK__.registerInternalModuleStop(Error());
 })();
 
-},{}],"i4X7T":[function(require,module,exports,__globalThis) {
+},{}],"50Rvl":[function(require,module,exports,__globalThis) {
 'use strict';
 function checkDCE() {
     /* global __REACT_DEVTOOLS_GLOBAL_HOOK__ */ if (typeof __REACT_DEVTOOLS_GLOBAL_HOOK__ === 'undefined' || typeof __REACT_DEVTOOLS_GLOBAL_HOOK__.checkDCE !== 'function') return;
@@ -16097,9 +16097,9 @@ function checkDCE() {
     // a false positive.
     throw new Error('^_^');
 }
-module.exports = require("b0f0e6b9e8349dac");
+module.exports = require("953f07a4981a7e8e");
 
-},{"b0f0e6b9e8349dac":"cLd8p"}],"cLd8p":[function(require,module,exports,__globalThis) {
+},{"953f07a4981a7e8e":"jiT0A"}],"jiT0A":[function(require,module,exports,__globalThis) {
 /**
  * @license React
  * react-dom.development.js
@@ -16147,7 +16147,7 @@ module.exports = require("b0f0e6b9e8349dac");
         return dispatcher;
     }
     "undefined" !== typeof __REACT_DEVTOOLS_GLOBAL_HOOK__ && "function" === typeof __REACT_DEVTOOLS_GLOBAL_HOOK__.registerInternalModuleStart && __REACT_DEVTOOLS_GLOBAL_HOOK__.registerInternalModuleStart(Error());
-    var React = require("6f0162e9ab224cd4"), Internals = {
+    var React = require("7317ed9333a8e646"), Internals = {
         d: {
             f: noop,
             r: function() {
@@ -16276,7 +16276,7 @@ module.exports = require("b0f0e6b9e8349dac");
     "undefined" !== typeof __REACT_DEVTOOLS_GLOBAL_HOOK__ && "function" === typeof __REACT_DEVTOOLS_GLOBAL_HOOK__.registerInternalModuleStop && __REACT_DEVTOOLS_GLOBAL_HOOK__.registerInternalModuleStop(Error());
 })();
 
-},{"6f0162e9ab224cd4":"jMk1U"}],"hh6uc":[function(require,module,exports,__globalThis) {
+},{"7317ed9333a8e646":"dZcfS"}],"hh6uc":[function(require,module,exports,__globalThis) {
 var $parcel$ReactRefreshHelpers$4089 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
 $parcel$ReactRefreshHelpers$4089.init();
 var prevRefreshReg = globalThis.$RefreshReg$;
@@ -16317,7 +16317,7 @@ $RefreshReg$(_c, "App");
   globalThis.$RefreshReg$ = prevRefreshReg;
   globalThis.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"dVPUn","./components/Header/Navbar":"d4XJY","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"7h6Pi","./components/home-page/Homepage":"2udTe"}],"d4XJY":[function(require,module,exports,__globalThis) {
+},{"react/jsx-dev-runtime":"kw0qP","./components/Header/Navbar":"d4XJY","@parcel/transformer-js/src/esmodule-helpers.js":"6Rhgs","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"h8se8","./components/home-page/Homepage":"2udTe"}],"d4XJY":[function(require,module,exports,__globalThis) {
 var $parcel$ReactRefreshHelpers$6cd1 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
 $parcel$ReactRefreshHelpers$6cd1.init();
 var prevRefreshReg = globalThis.$RefreshReg$;
@@ -16433,7 +16433,7 @@ $RefreshReg$(_c, "Navbar");
   globalThis.$RefreshReg$ = prevRefreshReg;
   globalThis.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"dVPUn","react":"jMk1U","./Navbar.css":"2Mg7b","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"7h6Pi"}],"2Mg7b":[function() {},{}],"jnFvT":[function(require,module,exports,__globalThis) {
+},{"react/jsx-dev-runtime":"kw0qP","react":"dZcfS","./Navbar.css":"2Mg7b","@parcel/transformer-js/src/esmodule-helpers.js":"6Rhgs","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"h8se8"}],"2Mg7b":[function() {},{}],"6Rhgs":[function(require,module,exports,__globalThis) {
 exports.interopDefault = function(a) {
     return a && a.__esModule ? a : {
         default: a
@@ -16463,9 +16463,9 @@ exports.export = function(dest, destName, get) {
     });
 };
 
-},{}],"7h6Pi":[function(require,module,exports,__globalThis) {
+},{}],"h8se8":[function(require,module,exports,__globalThis) {
 "use strict";
-var Refresh = require("7422ead32dcc1e6b");
+var Refresh = require("4e58cb232d03bcc7");
 function debounce(func, delay) {
     {
         let timeout = undefined;
@@ -16503,7 +16503,7 @@ module.exports.init = function() {
             };
         };
         if (typeof window !== 'undefined') {
-            let ErrorOverlay = require("e4d875b7642f9496");
+            let ErrorOverlay = require("d5d84791dea6ae24");
             ErrorOverlay.setEditorHandler(function(errorLocation) {
                 let file = `${errorLocation.fileName}:${errorLocation.lineNumber || 1}:${errorLocation.colNumber || 1}`;
                 fetch(module.bundle.devServer + `/__parcel_launch_editor?file=${encodeURIComponent(file)}`);
@@ -16626,11 +16626,11 @@ function registerExportsForReactRefresh(module1) {
     }
 }
 
-},{"7422ead32dcc1e6b":"hpiFP","e4d875b7642f9496":"gnoim"}],"hpiFP":[function(require,module,exports,__globalThis) {
+},{"4e58cb232d03bcc7":"d3DNA","d5d84791dea6ae24":"bjjFB"}],"d3DNA":[function(require,module,exports,__globalThis) {
 'use strict';
-module.exports = require("96622d495519d4e");
+module.exports = require("bd04ef93b4da741e");
 
-},{"96622d495519d4e":"7AD9f"}],"7AD9f":[function(require,module,exports,__globalThis) {
+},{"bd04ef93b4da741e":"ac4A4"}],"ac4A4":[function(require,module,exports,__globalThis) {
 /**
  * @license React
  * react-refresh-runtime.development.js
@@ -16866,7 +16866,7 @@ module.exports = require("96622d495519d4e");
     exports.setSignature = setSignature;
 })();
 
-},{}],"gnoim":[function(require,module,exports,__globalThis) {
+},{}],"bjjFB":[function(require,module,exports,__globalThis) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "setEditorHandler", ()=>$da9882e673ac146b$export$25a22ac46f1bd016);
@@ -18741,7 +18741,7 @@ function $da9882e673ac146b$var$ErrorOverlay() {
     return null;
 }
 
-},{"@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT"}],"2udTe":[function(require,module,exports,__globalThis) {
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"6Rhgs"}],"2udTe":[function(require,module,exports,__globalThis) {
 var $parcel$ReactRefreshHelpers$fd9c = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
 $parcel$ReactRefreshHelpers$fd9c.init();
 var prevRefreshReg = globalThis.$RefreshReg$;
@@ -18763,7 +18763,7 @@ const Homepage = ()=>{
                 className: "hero",
                 children: [
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h2", {
-                        children: "Welcome to MyBrand"
+                        children: "Welcome to Unniverse"
                     }, void 0, false, {
                         fileName: "src/components/home-page/Homepage.jsx",
                         lineNumber: 8,
@@ -18791,6 +18791,29 @@ const Homepage = ()=>{
                 columnNumber: 7
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("section", {
+                className: "about",
+                children: [
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h2", {
+                        children: "About Us"
+                    }, void 0, false, {
+                        fileName: "src/components/home-page/Homepage.jsx",
+                        lineNumber: 14,
+                        columnNumber: 9
+                    }, undefined),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                        children: "Unniverse is a student community platform that connects college students across different tiers, helping them share knowledge, find mentors, exchange notes, and prepare for a bright future."
+                    }, void 0, false, {
+                        fileName: "src/components/home-page/Homepage.jsx",
+                        lineNumber: 15,
+                        columnNumber: 9
+                    }, undefined)
+                ]
+            }, void 0, true, {
+                fileName: "src/components/home-page/Homepage.jsx",
+                lineNumber: 13,
+                columnNumber: 7
+            }, undefined),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("section", {
                 className: "features",
                 children: [
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -18800,20 +18823,20 @@ const Homepage = ()=>{
                                 children: "Fast & Optimized"
                             }, void 0, false, {
                                 fileName: "src/components/home-page/Homepage.jsx",
-                                lineNumber: 15,
+                                lineNumber: 24,
                                 columnNumber: 11
                             }, undefined),
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
                                 children: "Experience lightning-fast performance."
                             }, void 0, false, {
                                 fileName: "src/components/home-page/Homepage.jsx",
-                                lineNumber: 16,
+                                lineNumber: 25,
                                 columnNumber: 11
                             }, undefined)
                         ]
                     }, void 0, true, {
                         fileName: "src/components/home-page/Homepage.jsx",
-                        lineNumber: 14,
+                        lineNumber: 23,
                         columnNumber: 9
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -18823,20 +18846,20 @@ const Homepage = ()=>{
                                 children: "Responsive Design"
                             }, void 0, false, {
                                 fileName: "src/components/home-page/Homepage.jsx",
-                                lineNumber: 19,
+                                lineNumber: 28,
                                 columnNumber: 11
                             }, undefined),
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
                                 children: "Looks great on any device."
                             }, void 0, false, {
                                 fileName: "src/components/home-page/Homepage.jsx",
-                                lineNumber: 20,
+                                lineNumber: 29,
                                 columnNumber: 11
                             }, undefined)
                         ]
                     }, void 0, true, {
                         fileName: "src/components/home-page/Homepage.jsx",
-                        lineNumber: 18,
+                        lineNumber: 27,
                         columnNumber: 9
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -18846,40 +18869,120 @@ const Homepage = ()=>{
                                 children: "Easy to Use"
                             }, void 0, false, {
                                 fileName: "src/components/home-page/Homepage.jsx",
-                                lineNumber: 23,
+                                lineNumber: 32,
                                 columnNumber: 11
                             }, undefined),
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
                                 children: "Intuitive and user-friendly interface."
                             }, void 0, false, {
                                 fileName: "src/components/home-page/Homepage.jsx",
-                                lineNumber: 24,
+                                lineNumber: 33,
                                 columnNumber: 11
                             }, undefined)
                         ]
                     }, void 0, true, {
                         fileName: "src/components/home-page/Homepage.jsx",
-                        lineNumber: 22,
+                        lineNumber: 31,
                         columnNumber: 9
                     }, undefined)
                 ]
             }, void 0, true, {
                 fileName: "src/components/home-page/Homepage.jsx",
-                lineNumber: 13,
+                lineNumber: 22,
+                columnNumber: 7
+            }, undefined),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("section", {
+                className: "contact",
+                children: [
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h2", {
+                        children: "Contact Us"
+                    }, void 0, false, {
+                        fileName: "src/components/home-page/Homepage.jsx",
+                        lineNumber: 38,
+                        columnNumber: 9
+                    }, undefined),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("form", {
+                        className: "contact-form",
+                        children: [
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("label", {
+                                children: "Name:"
+                            }, void 0, false, {
+                                fileName: "src/components/home-page/Homepage.jsx",
+                                lineNumber: 40,
+                                columnNumber: 11
+                            }, undefined),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("input", {
+                                type: "text",
+                                placeholder: "Your Name",
+                                required: true
+                            }, void 0, false, {
+                                fileName: "src/components/home-page/Homepage.jsx",
+                                lineNumber: 41,
+                                columnNumber: 11
+                            }, undefined),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("label", {
+                                children: "Email:"
+                            }, void 0, false, {
+                                fileName: "src/components/home-page/Homepage.jsx",
+                                lineNumber: 43,
+                                columnNumber: 11
+                            }, undefined),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("input", {
+                                type: "email",
+                                placeholder: "Your Email",
+                                required: true
+                            }, void 0, false, {
+                                fileName: "src/components/home-page/Homepage.jsx",
+                                lineNumber: 44,
+                                columnNumber: 11
+                            }, undefined),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("label", {
+                                children: "Message:"
+                            }, void 0, false, {
+                                fileName: "src/components/home-page/Homepage.jsx",
+                                lineNumber: 46,
+                                columnNumber: 11
+                            }, undefined),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("textarea", {
+                                placeholder: "Your Message",
+                                required: true
+                            }, void 0, false, {
+                                fileName: "src/components/home-page/Homepage.jsx",
+                                lineNumber: 47,
+                                columnNumber: 11
+                            }, undefined),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("button", {
+                                type: "submit",
+                                children: "Send Message"
+                            }, void 0, false, {
+                                fileName: "src/components/home-page/Homepage.jsx",
+                                lineNumber: 49,
+                                columnNumber: 11
+                            }, undefined)
+                        ]
+                    }, void 0, true, {
+                        fileName: "src/components/home-page/Homepage.jsx",
+                        lineNumber: 39,
+                        columnNumber: 9
+                    }, undefined)
+                ]
+            }, void 0, true, {
+                fileName: "src/components/home-page/Homepage.jsx",
+                lineNumber: 37,
                 columnNumber: 7
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("footer", {
                 className: "footer",
                 children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
-                    children: "\xa9 2025 MyBrand. All rights reserved."
+                    children: "\xa9 2025 Unniverse. All rights reserved."
                 }, void 0, false, {
                     fileName: "src/components/home-page/Homepage.jsx",
-                    lineNumber: 29,
+                    lineNumber: 54,
                     columnNumber: 9
                 }, undefined)
             }, void 0, false, {
                 fileName: "src/components/home-page/Homepage.jsx",
-                lineNumber: 28,
+                lineNumber: 53,
                 columnNumber: 7
             }, undefined)
         ]
@@ -18899,6 +19002,6 @@ $RefreshReg$(_c, "Homepage");
   globalThis.$RefreshReg$ = prevRefreshReg;
   globalThis.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"dVPUn","react":"jMk1U","./homepage.css":"2tPCV","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"7h6Pi"}],"2tPCV":[function() {},{}]},["ihYAY","a0t4e"], "a0t4e", "parcelRequiree8ef", null, null, "http://localhost:1234")
+},{"react/jsx-dev-runtime":"kw0qP","react":"dZcfS","@parcel/transformer-js/src/esmodule-helpers.js":"6Rhgs","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"h8se8","./homepage.css":"2tPCV"}],"2tPCV":[function() {},{}]},["cSThZ","a0t4e"], "a0t4e", "parcelRequiree8ef", null, null, "http://localhost:1234")
 
 //# sourceMappingURL=client.31b563d9.js.map

@@ -2,15 +2,15 @@
   "name": "server",
   "version": "1.0.0",
   "description": "",
-  
   "scripts": {
-    "start": "npx nodemon src/index.js", 
+    "start": "npx nodemon src/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.21.2"
+    "express": "^4.21.2",
+    "mongoose": "^8.13.0"
   }
 }

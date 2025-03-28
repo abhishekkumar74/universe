@@ -102,7 +102,28 @@
   background: #ff9800;
 }
 
+.about {
+  text-align: center;
+  background: #e3e3e3;
+  padding: 50px 20px;
+}
+
+.about h2 {
+  color: #ff5722;
+  margin-bottom: 15px;
+  font-size: 32px;
+}
+
+.about p {
+  color: #555;
+  max-width: 800px;
+  margin: 0 auto;
+  font-size: 18px;
+  line-height: 1.6;
+}
+
 .features {
+  flex-wrap: wrap;
   justify-content: center;
   gap: 20px;
   padding: 50px 20px;
@@ -110,6 +131,7 @@
 }
 
 .feature-card {
+  text-align: center;
   background: #f4f4f4;
   border-radius: 10px;
   width: 250px;
@@ -120,6 +142,70 @@
 .feature-card h3 {
   color: #ff5722;
   margin-bottom: 10px;
+}
+
+.contact {
+  text-align: center;
+  background: #fff;
+  padding: 50px 20px;
+}
+
+.contact h2 {
+  color: #ff5722;
+  margin-bottom: 15px;
+  font-size: 32px;
+}
+
+.contact-form {
+  background: #f9f9f9;
+  border-radius: 10px;
+  flex-direction: column;
+  gap: 15px;
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 20px;
+  display: flex;
+  box-shadow: 0 4px 6px #0000001a;
+}
+
+.contact-form label {
+  text-align: left;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.contact-form input, .contact-form textarea {
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  outline: none;
+  width: 100%;
+  padding: 12px;
+  font-size: 16px;
+  transition: all .3s;
+}
+
+.contact-form input:focus, .contact-form textarea:focus {
+  border-color: #ff5722;
+}
+
+.contact-form textarea {
+  resize: none;
+  height: 120px;
+}
+
+.contact-form button {
+  color: #fff;
+  cursor: pointer;
+  background: #ff5722;
+  border: none;
+  border-radius: 5px;
+  padding: 12px;
+  font-size: 18px;
+  transition: all .3s;
+}
+
+.contact-form button:hover {
+  background: #ff9800;
 }
 
 .footer {
