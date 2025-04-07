@@ -30,6 +30,7 @@
 ---
 
 ## 📸 Sneak Peek
+<img width="1363" alt="Screenshot 2025-04-07 at 5 03 32 PM" src="https://github.com/user-attachments/assets/b5c3294b-e917-469c-8450-3b4a92e86b2c" />
 
 > 
 
